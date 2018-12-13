@@ -15,3 +15,7 @@
 
 # Excel files
 *.xls
+
+# Build
+build/
+dist/

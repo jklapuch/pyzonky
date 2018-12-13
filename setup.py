@@ -1,4 +1,5 @@
 from setuptools import setup
+from pyzonky import __version__
 
 def readme():
     with open('README.rst') as f:
@@ -7,14 +8,13 @@ def readme():
 
 # https://pypi.org/pypi?%3Aaction=list_classifiers
 setup(name='pyzonky',
-      version='',
+      version=__version__,
       description='',
       long_description=readme(),
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.6',
-        'Topic :: Game Testing :: Statistical',
       ],
       keywords='',
       url='',
